@@ -25,14 +25,14 @@ Parameters
 -
 The parameters of the run are specified in the file Args.jl.
 In particular:
-lmax — cutoff in the harmonic number
-Tc_over_dt — time step of integration
-Tmax_over_Tc — time depth of correlations
-order — order of approximation: order=1 for the bare MSR prediction, order=2 for the one-loop MSR prediction
-init — initial condition for the correlation in the fixed-point search
-iter_init — iteration number used to initialize the fixed-point search
-nb_iter — total number of iterations performed starting from iter_init
-coupling — type of coupling (here, quadrupolar with ℓ = 2)
+- lmax — cutoff in the harmonic number
+- Tc_over_dt — time step of integration
+- Tmax_over_Tc — time depth of correlations
+- order — order of approximation: order=1 for the bare MSR prediction, order=2 for the one-loop MSR prediction
+- init — initial condition for the correlation in the fixed-point search
+- iter_init — iteration number used to initialize the fixed-point search
+- nb_iter — total number of iterations performed starting from iter_init
+- coupling — type of coupling (here, quadrupolar with ℓ = 2)
 
 For the parameters used to compute the numerical predictions in Sec. V of the paper, we used:
 lmax=7, Tc_over_dt=80, Tmax_over_Tc=1, order=1 and 2, init=Gaussian, and coupling=Quad.

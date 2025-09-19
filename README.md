@@ -61,4 +61,4 @@ julia run/Run_Create_Figs.jl --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_ove
 
 Figures
 -
-![figure_Prediction_LMAX_20_COUPLING_Asymp_ORDER_1](https://github.com/sfloresmo/VRR_DIA/assets/172500564/32f48f07-8e31-44aa-bc8e-8bf1c4ba9510)
+![figure_three_point_ORDER_1_LMAX_7_ITER_10.hf5.png]()

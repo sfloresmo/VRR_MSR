@@ -46,7 +46,7 @@ For demonstration purposes, we use downgraded parameters so the computation is f
 
 Run
 -
-I. Generate the data files (computing time ~ 1 min).
+I. Generate the data files (computing time ~ 2 min).
 
 ```sh
 julia -t 8 run/Run.jl --parallel true --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_over_Tc 1 --order 1 --init Gaussian --iter_init 0 --nb_iter 10 

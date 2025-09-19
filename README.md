@@ -30,7 +30,7 @@ In particular:
 - Tmax_over_Tc — time depth of correlations
 - order — order of approximation: order=1 for the bare MSR prediction, order=2 for the one-loop MSR prediction
 - init — initial condition for the correlation in the fixed-point search
-- iter_init — iteration number used to initialize the fixed-point search
+- iter_init — iteration number used to initialise the fixed-point search
 - nb_iter — total number of iterations performed starting from iter_init
 - coupling — type of coupling (here, quadrupolar with ℓ = 2)
 
@@ -41,7 +41,7 @@ The code is structured such that each iteration outputs a data file.
 When iter_init=0, the correlation is initialised as a Gaussian.
 After each iteration, iter_init is updated: iter_init = 1, 2, …, (nb_iter-1).
 
-In the following section, we show the command to generate the files, and plot the two- and three-point correlations.
+In the following section, we show the command to generate the data files, and plot the two- and three-point correlations.
 For demonstration purposes, we use downgraded parameters so the computation is faster and can be run locally, in particular we use order = 1.
 
 Run

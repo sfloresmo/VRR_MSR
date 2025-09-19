@@ -2,7 +2,7 @@ Vector Resonant Relaxation (VRR) and the MSR one-loop closure
 -
 This project explores statistical closure theory using stellar dynamics as a testbed, focusing on Vector Resonant Relaxation (VRR),
 a long-range, non-linear, and correlated relaxation mechanism that drives the reorientation of stellar orbital planes around a supermassive black hole.
-We implement the Martin–Siggia–Rose (MSR) formalism at one-loop order via an iterative fixed-point approach, improving upon the Direct Interaction Approximation (DIA). 
+We implement the Martin–Siggia–Rose (MSR) formalism at bare and one-loop order via an iterative fixed-point approach. 
 The code computes
 (i) two-point two-time correlation functions;
 (ii) the renormalized three-point interaction vertex;

@@ -23,7 +23,7 @@ List of Julia packages required to run the code:
 
 Parameters
 -
-The parameters of the run are specified in the file Args.jl.
+The parameters of the run are specified in the file src/Args.jl.
 In particular:
 - lmax — cutoff in the harmonic number
 - Tc_over_dt — time step of integration

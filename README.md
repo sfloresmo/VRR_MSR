@@ -61,4 +61,5 @@ julia run/Run_Create_Figs.jl --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_ove
 
 Figures
 -
-![figure_three_point_ORDER_1_LMAX_7_ITER_10.hf5.png]()
+![figure_two_point_ORDER_1_LMAX_7_ITER_10.hf5.png](https://github.com/sfloresmo/VRR_MSR/blob/main/figs/figure_two_point_ORDER_1_LMAX_7_ITER_10.hf5.png)
+![figure_three_point_ORDER_1_LMAX_7_ITER_10.hf5.png](https://github.com/sfloresmo/VRR_MSR/blob/main/figs/figure_three_point_ORDER_1_LMAX_7_ITER_10.hf5.png)

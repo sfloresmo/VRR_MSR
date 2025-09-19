@@ -39,7 +39,7 @@ lmax = 7, Tc_over_dt = 80, Tmax_over_Tc = 1, order = 1 and 2, init = Gaussian, a
 For the one-loop predictions (order = 2), with these parameters, each iteration took about 62 hours of computing time on 128 cores.
 The code is structured such that each iteration outputs a data file.
 When iter_init=0, the correlation is initialised as a Gaussian.
-After each iteration, iter_init is updated: iter_init = 1, 2, …, nb_iter.
+After each iteration, iter_init is updated: iter_init = 1, 2, …, (nb_iter-1).
 
 In the following section, we show the command to generate the files, and plot the two- and three-point correlations.
 For demonstration purposes, we use downgraded parameters so the computation is faster and can be run locally, in particular we use order = 1.

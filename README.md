@@ -51,7 +51,7 @@ I. Generate the data by writing the command (computing time ~ 1 min):
 ```sh
 julia -t 8 run/Run.jl --parallel true --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_over_Tc 1 --order 1 --init Gaussian --iter_init 0 --nb_iter 10 
 ```
-II. Generate the figure from the data. Here, we plot the two-point correlation functions at the last iteration (nb_iter), for harmonics ℓ = 2,3,4.
+II. Generate the figure from the data. Here, we plot the bare (order = 1) two-point correlation functions at the last iteration (nb_iter), for harmonics ℓ = 2,3,4.
 ```sh
 julia run/Run_Create_Figs.jl --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_over_Tc 1 --order 1 --init Gaussian --iter_init 0 --nb_iter 10 
 ```

@@ -53,7 +53,7 @@ julia -t 8 run/Run.jl --parallel true --lmax 7 --coupling Quad --Tc_over_dt 10 -
 ```
 II. Generate figures from the data. Here, we plot the bare (order = 1) two- and three-point correlation functions at the final iteration (nb_iter).
 For the two-point correlations, we show harmonics ℓ = 2, 3, 4.
-For the three-point correlations, we consider the triangle (ℓ, ℓ, ℓ) = (1, 2, 2).
+For the three-point correlations, we consider the triangle (ℓ_1, ℓ_2, ℓ_3) = (1, 2, 2).
 
 ```sh
 julia run/Run_Create_Figs.jl --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_over_Tc 1 --order 1 --init Gaussian --iter_init 0 --nb_iter 10 

@@ -5,7 +5,7 @@ a long-range, non-linear, and correlated relaxation mechanism that drives the re
 We implement the Martin–Siggia–Rose (MSR) formalism at bare and one-loop order via an iterative fixed-point approach. 
 The code computes
 (i) two-point two-time correlation functions;
-(ii) the renormalized three-point interaction vertex;
+(ii) the renormalised three-point interaction vertex;
 (iii) three-point three-time correlation functions.
 
 Packages

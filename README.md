@@ -59,6 +59,6 @@ For the three-point correlations, we consider the triangle (ℓ_1, ℓ_2, ℓ_3)
 julia run/Run_Create_Figs.jl --lmax 7 --coupling Quad --Tc_over_dt 10 --Tmax_over_Tc 1 --order 1 --init Gaussian --iter_init 0 --nb_iter 10 
 ```
 
-Figure
+Figures
 -
 ![figure_Prediction_LMAX_20_COUPLING_Asymp_ORDER_1](https://github.com/sfloresmo/VRR_DIA/assets/172500564/32f48f07-8e31-44aa-bc8e-8bf1c4ba9510)

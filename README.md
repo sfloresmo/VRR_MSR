@@ -36,10 +36,9 @@ In particular:
 
 For the parameters used to compute the numerical predictions in Sec. V of the paper, we used:
 lmax=7, Tc_over_dt=80, Tmax_over_Tc=1, order=1 and 2, init=Gaussian, and coupling=Quad.
-
-For the one-loop predictions (order=2), each iteration takes about 62 hours of computing time on 128 cores.
+For the one-loop predictions (order=2), with these parameters, each iteration took about 62 hours of computing time on 128 cores.
 The code is structured such that each iteration outputs a data file.
-When iter_init=0, the correlation is initialized as a Gaussian.
+When iter_init=0, the correlation is initialised as a Gaussian.
 After each iteration, iter_init is updated: iter_init = 1, 2, …, nb_iter.
 
 In the following section, we show the command to plot the two-point correlations from the generated data files.

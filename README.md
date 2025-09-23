@@ -16,7 +16,7 @@ List of Julia packages required to run the code:
 - ArgParse
 - HDF5 
 - OffsetArrays 
-- CGcoefficient [!! version 0.2.9 !!]
+- CGcoefficient [**!! version 0.2.9 !!**]
 - Plots
 
 Parameters

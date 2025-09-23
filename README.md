@@ -14,11 +14,9 @@ This code is written in Julia. To install Julia: https://julialang.org/downloads
 
 List of Julia packages required to run the code:
 - ArgParse
-- BenchmarkTools 
 - HDF5 
 - OffsetArrays 
-- Memoize
-- CGcoefficient
+- CGcoefficient [!! version 0.2.9 !!]
 - Plots
 
 Parameters
